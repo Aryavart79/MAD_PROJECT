@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/con1"
+    tools:context=".AddNewStudent">
+
+    <EditText
+        android:id="@+id/enr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Enrollment Number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:id="@+id/nam"
+        android:layout_below="@+id/enr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+    <EditText
+        android:id="@+id/bar"
+        android:layout_below="@+id/nam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:hint="Enter Branch"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@+id/bar"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="150dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/hou"/>
+    <item android:title="Add New Student"
+        android:id="@+id/newStu"/>
+    <item android:title="Remove Student"
+        android:id="@+id/remStu"/>
+    <item android:id="@+id/Contact"
+        android:title="Contact Us"
+        />
+</menu>

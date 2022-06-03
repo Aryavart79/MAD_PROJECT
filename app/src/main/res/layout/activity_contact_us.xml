@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/con1"
+    tools:context=".ContactUs">
+
+
+    <TextView
+        android:id="@+id/ary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:text="Aryavart Singh : 201B333@juetguna.in"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ary"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Samarpit Gupta : 201B337@juetguna.in"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ayu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sam"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Ayush Bansal : 201B338@juetguna.in"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ar"
+        android:layout_below="@+id/ary"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:96696 35159"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/sa"
+        android:layout_below="@+id/sam"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:99835 28795"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/ay"
+        android:layout_below="@+id/ayu"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number:82730 23325"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
